@@ -1,0 +1,26 @@
+{
+    "name": "versona0450/auth-laramodule",
+    "type": "library",
+    "description": "Auth scaffolding for laramodule",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "Ladmin Package",
+        "Laramodule Package"
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Versona0450\\AuthLaramodule\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Versona0450\\AuthLaramodule\\AuthServiceProvider"
+            ],
+            "aliases": []
+        }
+    },
+    "require": {}
+}

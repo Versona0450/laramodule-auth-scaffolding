@@ -1,0 +1,10 @@
+{
+    "name": "auth",
+    "namespace": "Modules\\Auth\\",
+    "providers": [
+        "Modules\\Auth\\Providers\\AuthServiceProvider",
+        "Modules\\Auth\\Providers\\EventServiceProvider",
+        "Modules\\Auth\\Providers\\RouteServiceProvider"
+    ],
+    "status": "enabled"
+}
